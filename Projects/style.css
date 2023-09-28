@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+@media(max-width:668px){
+    .nav-link{
+        text-align: center;
+    }
+}
+body{
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+
+   
+}
+
+.navbar{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .9rem;
+    letter-spacing: .1rem;
+    background:rgba(0,0,0,.6)!important;
+}
+
+
+
+.navbar-nav li{
+    padding-right: .7rem;
+
+}
+
+.navbar-dark .navbar-dark .nav-link{
+    color: rgb(1, 7, 6);
+    padding-top: .8rem;
+
+}
+
+.navbar-dark .navbar-dark .nav-link.active
+.navbar-dark .navbar-dark .nav-link:hover{
+    color: dimgray;
+}
+
+.carousel-item{
+    background-size: cover;
+    min-height: 60vh;
+        
+   
+}
+
+.container5{
+
+    background-size: cover;
+}
+
+.container6{
+    background-size: cover;
+}
+
+.container1{
+    margin-top: 10%;
+    -ms-flex-align: center;
+}
+
+.card{
+    transition: all 0.3s;
+}
+
+.card:hover{
+    transform: scale(1.15);
+}
+
+.navbar{
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: .9rem;
+    letter-spacing: .1rem;
+    background: hsla(180, 20%, 1%, 0.74)!important;
+}
+
+
+.container3{
+    height: 10vh;
+    display: flex;
+    align-items:flex-start;
+    justify-content:flex-start;
+}
+
+
+
+
+
